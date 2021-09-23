@@ -1,0 +1,484 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    /*font-family: 'Great Vibes', cursive;*/
+    
+    * {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        padding: 0px;
+    }
+    
+    .navbar {
+        height: 75px;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+    }
+    
+    .logo {
+        height: 50px;
+        width: 200px;
+        margin-left: 50px;
+    }
+    
+    .logoimg {
+        margin-top: -14px;
+        height: 70px;
+    }
+    
+    .nav {
+        text-decoration: none;
+        padding-left: 0px;
+        color: #808080;
+        font-weight: 600;
+    }
+    
+    .nav:hover {
+        color: #A7BC5B;
+    }
+    
+    .anchor {
+        padding-left: 400px;
+        margin-top: 25px;
+    }
+    
+    .greenline {
+        float: left;
+        margin-left: 30px;
+        border: 2px solid #A7BC5B;
+        border-color: transparent transparent transparent transparent;
+    }
+    
+    .greenline:hover {
+        border-color: transparent transparent green transparent;
+    }
+    
+    .logo {
+        color: #808080;
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+    
+    .intro {
+        display: flex;
+    }
+    
+    .imagediv {
+        margin-top: 150px;
+        width: 50%;
+        position: relative;
+    }
+    
+    .para {
+        margin-top: 150px;
+        width: 50%;
+    }
+    
+    .welcome {
+        font-family: 'Great Vibes', cursive;
+        font-size: 60px;
+        color: #999966;
+        padding-left: 40px;
+        font-weight: 300;
+    }
+    
+    .Our {
+        text-transform: uppercase;
+        padding-left: 40px;
+        font-size: 50px;
+    }
+    
+    .quotes {
+        padding-left: 40px;
+        padding-top: 40px;
+        color: #808080;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding-right: 50px;
+        line-height: 30px;
+    }
+    
+    .introduction {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        color: #808080;
+        line-height: 28px;
+    }
+    
+    .aboutdiv {
+        display: flex;
+        padding-left: 40px;
+        margin-top: 40px;
+    }
+    
+    .aboutline {
+        height: 40px;
+        width: 4px;
+        background-color: black;
+    }
+    
+    .aboutus {
+        padding-left: 40px;
+        font-size: 10px;
+        padding-top: 7px;
+    }
+    
+    .kitchenimg {
+        height: 530px;
+        padding-left: 100px;
+        width: 80%;
+        position: absolute;
+    }
+    
+    .gallary {
+        display: grid;
+        grid-auto-columns: minmax(100px, auto);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 90px;
+        margin-bottom: 140px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .imgb {
+        width: 75%;
+        height: 75%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .col {
+        text-align: center;
+    }
+    
+    .titlegallery {
+        margin-top: 200px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .gallerytext {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    
+    .imga:hover {
+        border: 4px solid #A7BC5B;
+    }
+    
+    .chiefimg {
+        height: 450px;
+        z-index: 1;
+        position: absolute;
+        animation-name: chief;
+        animation-duration: 2s;
+        left: 200px;
+        margin-top: 80px;
+    }
+    
+    .d-block {
+        height: 825px;
+    }
+    
+    @keyframes chief {
+        0% {
+            opacity: 20%;
+        }
+        100% {
+            opacity: 100%;
+            height: 450px;
+        }
+    }
+    /*..........................................  Reserve  .................................................*/
+    
+    .reservdiv {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-top: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 50px;
+        margin-top: 100px;
+        margin-bottom: 140px;
+    }
+    
+    .online {
+        position: absolute;
+        top: 260px;
+        left: 620px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #EFEFEF;
+    }
+    
+    .reservation {
+        position: absolute;
+        top: 300px;
+        left: 500px;
+        color: #EFEFEF;
+        font-family: 'Great Vibes', cursive;
+        font-size: 110px;
+    }
+    
+    .booktabletext {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .booking {
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    .datediv {
+        padding-right: 80px;
+    }
+    
+    .timediv {
+        padding-right: 80px;
+    }
+    
+    .persondiv {
+        float: right;
+    }
+    
+    .date {
+        height: 30px;
+        width: 210px;
+        background-color: #EFEFEF;
+        border: 2px solid #DEDEDE;
+    }
+    
+    .time {
+        height: 30px;
+        width: 210px;
+        background-color: #EFEFEF;
+        border: 2px solid #DEDEDE;
+    }
+    
+    .person {
+        height: 30px;
+        width: 210px;
+        border: 2px solid #B3B2B2;
+    }
+    
+    .contactdetails {
+        padding-left: 320px;
+        padding-top: 100px;
+    }
+    
+    .contactdetailstext {
+        font-size: 25px;
+    }
+    
+    .name {
+        width: 100%;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    
+    .email {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    
+    .phone {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    
+    .input {
+        height: 30px;
+        background-color: #EFEFEF;
+        border: 2px solid #DEDEDE;
+        width: 100%;
+    }
+    
+    #message {
+        background-color: #EFEFEF;
+        border: 2px solid #DEDEDE;
+    }
+    
+    .messagetitle {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    
+    .buttondiv {
+        text-align: center;
+        padding-top: 35px;
+    }
+    
+    button {
+        padding: 12px;
+        border-radius: 5px;
+        border: 2px solid #DEDEDE;
+        color: #808080;
+        transition: all 0.2s;
+    }
+    
+    button:hover {
+        border: 2px solid #A7BC5B;
+        background-color: #A7BC5B;
+        color: white;
+    }
+    
+    .reservimg {
+        margin-top: 70px;
+        width: 100%;
+    }
+    
+    .orcallus {
+        color: #EFEFEF;
+        position: absolute;
+        top: 430px;
+        left: 550px;
+        font-size: 20px;
+    }
+    
+    .timming {
+        color: #EFEFEF;
+        position: absolute;
+        top: 480px;
+        left: 630px;
+        font-size: 16px;
+    }
+    /*..........................................  CONTACT US  .................................................*/
+    
+    .contactus {
+        display: flex;
+        padding-left: 70px;
+        margin-top: 80px;
+        padding-right: 70px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 140px;
+    }
+    
+    .form {
+        height: 400px;
+        width: 50%;
+    }
+    
+    .contactimg {
+        height: 679px;
+        width: 50%;
+        background-color: aqua;
+    }
+    
+    .yourname {
+        height: 40px;
+        background-color: #EFEFEF;
+        border: 2px solid #DEDEDE;
+        width: 350px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    
+    .Getintouch {
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+    
+    #contactmessage {
+        margin-left: 30px;
+        background-color: #EFEFEF;
+        border: 2px solid #DEDEDE;
+    }
+    
+    .buttondivcontact {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    
+    .contactimg {
+        background-image: url(wp1874157-restaurant-wallpapers.jpg);
+    }
+    /*..........................................  Footer  .................................................*/
+    
+    .footerdiv {
+        height: 200px;
+        width: 100%;
+        background-color: #12171B;
+        display: flex;
+        text-align: center;
+    }
+    
+    .addresstext {
+        color: white;
+        font-size: 13px;
+        letter-spacing: 3px;
+        font-weight: 200;
+    }
+    
+    .theaddress,
+    .emailfooter {
+        color: white;
+        font-size: 11px;
+        width: 160px;
+    }
+    
+    .follow,
+    .contactustextfooter {
+        color: white;
+        font-size: 13px;
+        letter-spacing: 3px;
+        font-weight: 200;
+    }
+    
+    .instagram,
+    .twitter,
+    .youtube {
+        height: 40px;
+    }
+    
+    .address,
+    .followus,
+    .contactusfooter {
+        margin-left: 100px;
+        margin-top: 75px;
+        height: 70px;
+    }
+    
+    .address,
+    .followus {
+        border: 2px dotted white;
+        border-color: transparent #808080 transparent transparent;
+        padding-right: 100px;
+    }
+    
+    .address {
+        padding-left: 200px;
+    }
+    
+    .addresstext,
+    .follow,
+    .contactustextfooter {
+        margin: 10px;
+    }
+    
+    .addresstext,
+    .follow,
+    .contactustextfooter {
+        margin: 10px;
+    }
+    /*..........................................  Order Online .................................................*/
+    
+    .deliverydiv {
+        display: flex;
+        margin-left: 140px;
+        margin-right: 140px;
+        padding-left: 50px;
+    }
