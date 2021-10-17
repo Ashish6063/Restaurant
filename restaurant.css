@@ -376,6 +376,7 @@
         height: 679px;
         width: 50%;
         background-color: aqua;
+        background-image: url(Images/wp1874157-restaurant-wallpapers.jpg);
     }
     
     .yourname {
@@ -401,10 +402,6 @@
     .buttondivcontact {
         margin-left: 30px;
         margin-top: 40px;
-    }
-    
-    .contactimg {
-        background-image: url(wp1874157-restaurant-wallpapers.jpg);
     }
     /*..........................................  Footer  .................................................*/
     
